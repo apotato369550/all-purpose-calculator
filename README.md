@@ -6,15 +6,15 @@ Just a little backstory for this project, I had just learned PHP and we had a on
 
 ## Topics
 1. Math
---* Arithmetic and Geometric Sequence
---* Finding the nth term of a sequence
---* Finding the sum/series of a sequence
---* Finding common difference/ratio
+* Arithmetic and Geometric Sequence
+* Finding the nth term of a sequence
+* Finding the sum/series of a sequence
+* Finding common difference/ratio
 
 2. Science
---* Wavespeed, wavelength, and frequency
---* Magnets and electricity
---* Lights
+* Wavespeed, wavelength, and frequency
+* Magnets and electricity
+* Lights
 
 The website is hosted over here: https://allpurpcalc.000webhostapp.com/index.php
 
