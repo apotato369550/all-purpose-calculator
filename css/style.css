@@ -1,0 +1,157 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+body {
+	background-color: #7842f5;
+	color: white;
+	font-family: "Lucida Console", "arial";
+	padding: 8em;
+}
+#title{
+	font-size: 4em;
+	text-align: center;
+}
+.subject {
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+	width: 65%;
+	padding: 1em 1.75em;
+	margin: 1.5em auto;
+	background-color: #692cf5;
+}
+.subject label {
+	display: block;
+	font-size: 2em;
+}
+.subject select {
+	background-color: white;
+	width: 100%;
+	color: black;
+	padding: .4em;
+	font-size: 1.4em;
+	font-family: "Lucida console", "Arial";
+	margin: .75em auto;
+}
+.subject option {
+	font-size: .75em;
+}
+
+.lesson {
+	animation: 2s ease-out 0s 1 slideInFromLeft;
+	width: 65%;
+	padding: 1em 1.75em;
+	margin: 1.5em auto;
+	background-color: #4e18c9;
+}
+.lesson label{
+	display: block;
+	font-size: 2em;
+}
+.lesson select {
+	background-color: white;
+	width: 100%;
+	color: black;
+	padding: .4em;
+	font-size: 1.4em;
+	font-family: "Lucida console", "Arial";
+	margin: .75em auto;
+}
+.lesson option {
+	font-size: .75em;
+}
+
+.problem {
+	animation: 3s ease-out 0s 1 slideInFromLeft;
+	width: 65%;
+	padding: 1em 1.75em;
+	margin: 1.5em auto;
+	background-color: #4a1fad;
+}
+.problem label{
+	display: block;
+	font-size: 2em;
+}
+.problem select {
+	background-color: white;
+	width: 100%;
+	color: black;
+	padding: .4em;
+	font-size: 1.4em;
+	font-family: "Lucida console", "Arial";
+	margin: .75em auto;
+}
+.problem option {
+	font-size: .75em;
+}
+
+.inputs {
+	animation: 3s slideUp;
+	width: 65%;
+	padding: .5em 1.75em;
+	margin: 1em auto;
+	background-color: #3e0785;
+	text-align: center;
+	overflow: hidden;
+}
+.inputs p {
+	font-size: 2em;
+	text-align: justify;
+	margin: .75em 0;
+}
+.inputs input {
+	background-color: white;
+	width: 100%;
+	color: black;
+	padding: .4em;
+	font-size: 1.4em;
+	font-family: "Lucida console", "Arial";
+	margin: .25em auto;
+	border-style: none;
+}
+.inputs button {
+	border-style: none;
+	color: white;
+	background-color: #7842f5;
+	font-family: "Lucida Console", "Arial";
+	font-size: 3em;
+	margin: .5em 0;
+	padding: .5em;
+}
+
+.error{
+	animation: 1s slideUp;
+	text-align: center;
+	border-style: none;
+	color: white;
+	background-color: #2f0d45;
+	font-family: "Lucida Console", "Arial";
+	font-size: 2em;
+	margin: .5em 0;
+	padding: .5em;
+}
+
+#answer {
+	text-align: center;
+	border-style: none;
+	color: white;
+	background-color: #2f0d45;
+	font-family: "Lucida Console", "Arial";
+	font-size: 2em;
+	margin: .5em 0;
+	padding: .5em;
+}
